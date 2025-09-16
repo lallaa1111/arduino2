@@ -5,16 +5,16 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(LED_PIN, HIGH);
+  digitalWrite(LED_PIN, 0);
   delay(1000);
 
   for (int i = 0; i < 5; i++) {
-    digitalWrite(LED_PIN, LOW);
+    digitalWrite(LED_PIN, 1);
     delay(100);   
-    digitalWrite(LED_PIN, HIGH);
+    digitalWrite(LED_PIN, 0);
     delay(100);  
   }
-  digitalWrite(LED_PIN, LOW);
+  digitalWrite(LED_PIN, 1);
 
   while (1) {
   }
