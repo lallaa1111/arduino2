@@ -1,7 +1,7 @@
 #include <Servo.h>
 #define PIN_SERVO 10
-#define _DUTY_MIN 550
-#define _DUTY_MAX 2350
+#define _DUTY_MIN 500
+#define _DUTY_MAX 2400
 #define INTERVAL 20
 #define _SERVO_SPEED 0.3
 
